@@ -1,0 +1,754 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e7d7ca;
+  font-family: 'Epilogue', sans-serif;
+}
+
+/*Header*/
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rectangle {
+  height: 400px;
+  width: 900px;
+  background-color: #b7b7a4;
+  position: absolute;
+  top: -40px;
+  left: -330px;
+  transform: rotate(-45deg);
+  z-index: 2;
+}
+
+.alexandra_christina {
+  font-weight: bold;
+  margin-left: 30px;
+  letter-spacing: 7px;
+  color: white;
+  margin-top: 60px;
+  text-decoration: none;
+
+}
+
+.graphic_designer {
+  font-weight: lighter;
+  font-size: 20px;
+  color: black;
+  padding: 0;
+  margin-left: 30px;
+  margin-top: 45px;
+  width: 90%;
+}
+
+.based_in_cph {
+  font-weight: lighter;
+  color: black;
+  font-size: 15px;
+  padding: 0px;
+  margin-left: 155px;
+  margin-top: -8px;
+  width: 55%
+}
+
+.rectangle_area {
+  position: relative;
+  z-index: 4;
+  width: 30%;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 415px;
+  padding: 0px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: -120px;
+  background-color: black;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 14px 18px;
+  text-decoration: none;
+  text-align: center;
+  border-right: 1px solid white;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  background-color: #b7b7a4;
+}
+
+/*Rest of the text on front page*/
+.section_1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: pink;
+  justify-content: center;
+  width: 100%;
+  font-family: helvetica, sans-serif;
+}
+
+.welcome_to_my {
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 60px;
+  margin-top: 50px;
+  margin-left: 280px;
+}
+
+.info_om_mig_1 {
+  border: 1px solid white;
+  line-height: 1.7;
+  text-align: center;
+  align-items: center;
+  width: 40%;
+  padding: 10px;
+  margin-left: 520px;
+}
+
+.info_om_mig_2 {
+  border: 1px solid white;
+  line-height: 1.7;
+  text-align: center;
+  justify-content: center;
+  width: 40%;
+  padding: 10px;
+  margin-left: 520px;
+  margin-top: 20px;
+}
+
+/*about me*/
+.about_me {
+  font-family: helvetica, sans-serif;
+  border: 1px solid white;
+  width: 40%;
+  margin-left: 400px;
+  line-height: 1.5;
+  border-radius: 70%;
+  margin-top: 40px;
+  text-align: center;
+  padding: 33px;
+}
+
+.migmig {
+  border-radius: 60%;
+  width: 400px;
+  height: 700px;
+  margin-top: 350px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+/*MY WORK*/
+.my_work {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.photography {
+  width: 200px;
+  height: 300px;
+  margin-left: 300px;
+  margin-top: 140px;
+  opacity: 70%;
+}
+
+/*My photos*/
+.overskrift_my_photos {
+  font-family: helvetica, sans-serif;
+  margin-left: 785px;
+}
+
+.text_my_photos {
+  font-family: helvetica, sans-serif;
+  margin-left: 400px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.mine_billeder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.paula {
+  width: 400px;
+  height: 600px;
+  margin-left: 370px;
+}
+
+.paula_1 {
+  width: 400px;
+  height: 600px;
+  margin-left: 200px;
+}
+
+.anso {
+  width: 400px;
+  height: 600px;
+  margin-left: 370px;
+  margin-top: 50px;
+}
+
+.anso_1 {
+  width: 400px;
+  height: 600px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.camilla {
+  width: 400px;
+  height: 600px;
+  margin-left: 370px;
+  margin-top: 50px;
+}
+
+.camilla_1 {
+  width: 400px;
+  height: 600px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.maria {
+  width: 400px;
+  height: 600px;
+  margin-left: 370px;
+  margin-top: 50px;
+}
+
+.maria_1 {
+  width: 400px;
+  height: 600px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.seva {
+  width: 400px;
+  height: 600px;
+  margin-left: 370px;
+  margin-top: 50px;
+}
+
+.seva_1 {
+  width: 400px;
+  height: 600px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.lj {
+  width: 400px;
+  height: 600px;
+  margin-left: 370px;
+  margin-top: 50px;
+}
+
+.lj_1 {
+  width: 400px;
+  height: 600px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.couple {
+  width: 400px;
+  height: 600px;
+  margin-left: 370px;
+  margin-top: 50px;
+}
+
+.couple_1 {
+  width: 400px;
+  height: 600px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.eli {
+  width: 400px;
+  height: 600px;
+  margin-left: 370px;
+  margin-top: 50px;
+}
+
+.eli_1 {
+  width: 400px;
+  height: 600px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.arrow_up_photo {
+  font-size: 30px;
+  color: grey;
+  float: right;
+  margin: 20px;
+}
+
+/*My photos slut*/
+/*My design*/
+.design {
+  width: 200px;
+  height: 300px;
+  margin-left: 160px;
+  margin-top: 140px;
+  opacity: 70%;
+}
+
+.overskrift_my_design {
+  font-family: helvetica, sans-serif;
+  margin-left: 750px;
+}
+
+.text_my_design {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  margin-left: 280px;
+  line-height: 1.5;
+}
+
+.plants {
+  width: 350px;
+  height: 300px;
+  margin-left: 340px;
+}
+
+.avo {
+  width: 350px;
+  height: 300px;
+  margin-left: 320px;
+}
+
+/*My design slut*/
+/*My video*/
+.video {
+  width: 200px;
+  height: 300px;
+  margin-left: 160px;
+  margin-top: 140px;
+  opacity: 70%;
+}
+
+.work_in_progress {
+  margin-left: 650px;
+  font-family: helvetica, sans-serif;
+}
+
+/*My video slut*/
+.photo_text {
+  position: absolute;
+  top: 95%;
+  left: 21.5%;
+  color: black;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.photography:hover {
+  opacity: 1;
+}
+
+.design_text {
+  position: absolute;
+  top: 95%;
+  left: 49.8%;
+  color: black;
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+
+.design:hover {
+  opacity: 1;
+}
+
+.video_text {
+  position: absolute;
+  top: 95%;
+  left: 76%;
+  color: black;
+  letter-spacing: 4px;
+  font-size: 25px;
+}
+
+.video:hover {
+  opacity: 1;
+}
+
+/*My work slut*/
+/*contact*/
+.contact_text {
+  font-family: helvetica, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  margin-left: 430px;
+}
+
+#overskrift {
+  font-size: 30px;
+  margin-top: 40px;
+  font-family: helvetica, sans-serif;
+  margin-left: 335px;
+}
+
+.contact_form {
+  background: #b7b7a4;
+  margin-left: 480px;
+  height: 400px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 90%;
+}
+
+#name {
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 320px;
+  font-family: helvetica, sans-serif;
+}
+
+.name {
+  margin-left: 30px;
+}
+
+#email {
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 320px;
+  font-family: helvetica, sans-serif;
+}
+
+.email {
+  margin-left: 50px;
+}
+
+#subject {
+  margin-top: 90px;
+  width: 730px;
+  margin-left: 27px;
+  font-family: helvetica, sans-serif;
+}
+
+.subject {
+  margin-left: 30px;
+}
+
+.submit {
+  margin-left: 800px;
+  margin-top: 25px;
+  width: 100px;
+  height: 40px;
+}
+
+.fb {
+  font-size: 30px;
+  list-style-type: none;
+  display: inline;
+  margin-left: 0px;
+  color: black;
+}
+
+.insta {
+  font-size: 33px;
+  list-style-type: none;
+  display: inline;
+  margin-left: 15px;
+  color: black;
+}
+
+
+
+
+
+/*EDUCATION - HOVEDSIDEN*/
+.container_semesters {
+  list-style-type: none;
+    padding: 0;
+    margin-left: 300px;
+}
+
+.container_semesters li {
+  display:inline;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  margin-left: 125px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 80px;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 25%;
+  font-size: 25px;
+}
+
+.container_semesters li a {
+  text-decoration: none;
+  color: black;
+}
+.container_semesters li:hover {
+  background-color: #b7b7a4;
+}
+
+.semesters_text {
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 250px;
+}
+
+/*1semester*/
+.flows_1sem {
+  margin-left: 368px;
+  line-height: 1.8;
+  margin-top: 50px;
+
+}
+
+.flows_1sem li {
+  list-style-type: none;
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
+  border: 1px solid grey;
+  width: 100px;
+  text-align: center;
+  padding: 5px 25px 5px 25px;
+  margin-bottom: 20px;
+
+}
+.flows_1sem li a {
+  color: black;
+  text-decoration: none;
+}
+
+.flows_1sem li:hover {
+  background-color: #b7b7a4;
+  text-decoration: underline;
+}
+
+
+/*2semester*/
+.flows_2sem {
+  margin-left: 620px;
+  line-height: 1.8;
+  margin-top: -300px;
+}
+
+.flows_2sem li {
+  list-style-type: none;
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
+  border: 1px solid grey;
+  width: 100px;
+  text-align: center;
+  padding: 5px 25px 5px 25px;
+  margin-bottom: 20px;
+}
+.flows_2sem li a {
+  color: black;
+  text-decoration: none;
+}
+
+.flows_2sem li:hover {
+  background-color: #b7b7a4;
+  text-decoration: underline;
+}
+
+/*3semester*/
+.flows_3sem {
+  margin-left: 865px;
+  line-height: 1.8;
+  margin-top: -300px;
+}
+
+.flows_3sem li {
+  list-style-type: none;
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
+  border: 1px solid grey;
+  width: 100px;
+  text-align: center;
+  padding: 5px 25px 5px 25px;
+  margin-bottom: 20px;
+}
+.flows_3sem li a {
+  color: black;
+  text-decoration: none;
+}
+
+.flows_3sem li:hover {
+  background-color: #b7b7a4;
+  text-decoration: underline;
+}
+
+
+/*4semester*/
+.flows_4sem {
+  margin-left: 1112px;
+  line-height: 1.8;
+  margin-top: -300px;
+}
+
+.flows_4sem li {
+  list-style-type: none;
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
+  border: 1px solid grey;
+  width: 100px;
+  text-align: center;
+  padding: 5px 25px 5px 25px;
+  margin-bottom: 20px;
+}
+.flows_4sem li a {
+  color: black;
+  text-decoration: none;
+}
+
+.flows_4sem li:hover {
+  background-color: #b7b7a4;
+  text-decoration: underline;
+}
+
+/*flowpage1*/
+.flowpage1 {
+  list-style-type: none;
+    padding: 0;
+    margin-left: 380px;
+
+}
+
+.flowpage1 li {
+  display: inline;
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
+  border: 1px solid grey;
+  width: 100px;
+  text-align: center;
+  padding: 7px 25px 7px 25px;
+  margin-left: 80px;
+
+}
+
+.flowpage1 li a {
+  text-decoration: none;
+  color: black;
+}
+.activeflow {
+  background-color: #b7b7a4;
+}
+
+
+.first_semester_text {
+  margin-left: 780px;
+  margin-top:10px;
+  margin-bottom: 50px;
+}
+
+.flow_description {
+  margin-left: 350px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: helvetica, sans-serif;
+  width: 800px;
+}
+
+.assignment_description {
+  margin-left: 350px;
+  margin-top: 75px;
+  line-height: 1.5;
+  font-family: helvetica, sans-serif;
+  font-style: italic;
+  width: 800px;
+}
+
+.photoshop_bro {
+  width: 800px;
+  margin-left: 310px;
+}
+
+.feedback {
+  margin-left: 310px;
+  margin-top: 10px;
+  font-family: helvetica, sans-serif;
+  line-height: 1.5;
+  width: 800px;
+}
+
+.photoshop_girl {
+  width: 800px;
+  margin-left: 310px;
+}
+
+.portfolio_Xd {
+  width: 800px;
+  margin-left: 310px;
+}
+
+.feedback_and_description {
+  margin-left: 310px;
+  margin-top: 10px;
+  font-family: helvetica, sans-serif;
+  line-height: 1.5;
+  width: 800px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.arrow_up_1sem1 {
+font-size: 30px;
+color: grey;
+float: right;
+margin: 20px;
+}
+.arrow_up:hover {
+  color: white;
+}
+
+
+/*EDUCATION SLUT*/
+
+
+
+footer {
+display: block;
+  font-family: helvetica, sans-serif;
+  background-color: #f0efeb;
+  opacity: 70%;
+  height: 40px;
+  margin-top: 93px;
+  width: 100%;
+  position:absolute;
+  margin-left: -10px;
+}
+
+.copyright_text {
+margin-left: 20px;
+margin-top: 10px;
+}
